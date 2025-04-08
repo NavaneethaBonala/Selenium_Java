@@ -10,9 +10,14 @@ public class NavigationDemo {
 		ChromeDriver driver = new ChromeDriver();
 		
 		driver.navigate().back();
+		Thread.sleep(3000);
+
 		driver1.navigate().back();
 		Thread.sleep(3000);
+		
 		driver.navigate().forward();
+		Thread.sleep(3000);
+
 		driver.navigate().refresh();
 	}
 
