@@ -28,7 +28,8 @@ public class LaunchingApplication {
 		driver.findElement(By.name("pass")).sendKeys("testpassword");
 		driver.findElement(By.name("login")).click();
 		
-	
+		//driver.close();
+
 	
 	}
 

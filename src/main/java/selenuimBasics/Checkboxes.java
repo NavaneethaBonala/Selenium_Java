@@ -40,11 +40,33 @@ public class Checkboxes {
 		
 		driver.findElement(By.xpath("//a[text()='Checkboxes']")).click();
 		
-		WebElement checkbox1 = driver.findElement(By.xpath("//input[@type='checkbox'][1]"));
-		System.out.println(checkbox1.isDisplayed());
-		System.out.println(checkbox1.isEnabled());
-		checkbox1.click();
-		System.out.println(checkbox1.isSelected());
+		WebElement cb1 = driver.findElement(By.xpath("//input[@type='checkbox'][1]"));
+		System.out.println(cb1.isDisplayed());
+		System.out.println(cb1.isEnabled());
+//		cb1.click();
+		System.out.println(cb1.isSelected());
+		
+		
+		WebElement cb2 = driver.findElement(By.xpath("//input[@type='checkbox'][1]"));
+		System.out.println(cb2.isDisplayed());
+		System.out.println(cb2.isEnabled());
+		cb1.click();
+		System.out.println(cb2.isSelected());
+		
+		
+		System.out.println("CB1 values after selecting the checkbox");
+		cb1.click();
+		System.out.println(cb1.isDisplayed());
+		System.out.println(cb1.isEnabled());
+		System.out.println(cb1.isSelected());
+		
+		
+		System.out.println("CB2 values after selecting the checkbox");
+		cb2.click();
+		System.out.println(cb2.isDisplayed());
+		System.out.println(cb2.isEnabled());
+		System.out.println(cb2.isSelected());
+		
 		
 		
 	}
