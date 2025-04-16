@@ -14,7 +14,7 @@ public class WaitsDemo {
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		
 		driver.findElement(By.name("username")).sendKeys("Admin");
-		driver.getTitle("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+		driver.getTitle();
 		
 		
 		
