@@ -19,7 +19,7 @@ public class ScreenshotDemo {
 		driver.get("https://www.facebook.com/");
 		// to save the screenshots , create a new folder in root with name screenshots,
 		// and take path of it
-		String path = "./ScreenShots";
+		String path = "./ScreenShots/abc.png";
 
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File temp = ts.getScreenshotAs(OutputType.FILE);
