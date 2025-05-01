@@ -7,6 +7,6 @@ public class Annotations {
 	@Test
 	public  void tc1()
 	{
-		
+		System.out.println("This is TC 1");
 	}
 }

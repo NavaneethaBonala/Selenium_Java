@@ -30,7 +30,7 @@ public static void main(String[] args) {
 //	abc1.method();
 //	int[] arr= {1,2,3};
 	for(;  ;) {
-	System.out.println();
+	System.out.println("Hi");
 }
 
 }
