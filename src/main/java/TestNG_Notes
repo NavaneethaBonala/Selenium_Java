@@ -1,0 +1,29 @@
+TestNG Notes
+
+TEst Next Generation
+
+1. Annotations
+2. Priority/sequencing
+3. Depends On
+4. Groups
+5. Invocation Count
+6. TestNG XML File
+7. XML parameter 
+8. Data Providers
+9. Assertions
+10.TestNG reports
+11.Enabled
+
+
+Annotations
+Suite  >>Test >> Classes >> Methods(Test cases)
+
+BeforeSuite
+BeforeTest
+BeforeClass
+BeforeMethod
+Test
+AfterSuite
+AfterMethod
+AfterClass
+AfterTest
